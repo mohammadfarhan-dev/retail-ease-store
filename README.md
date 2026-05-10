@@ -352,11 +352,7 @@ Deployment steps:
 
 Deployment link:
 
-```text
-To be added after deployment
-```
-
----
+https://retaileasestore.infinityfreeapp.com/retail-ease-store/
 
 ## Testing Summary
 
