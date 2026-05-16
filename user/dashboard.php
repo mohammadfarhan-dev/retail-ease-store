@@ -7,7 +7,7 @@ requireLogin();
 if ($_SESSION['role'] === 'admin') {
     redirect('/retail-ease-store/admin/dashboard.php');
 }
-
+// Responsive customer dashboard layout
 $userId = $_SESSION['user_id'];
 
 $totalOrders = $pdo->prepare("SELECT COUNT(*) FROM orders WHERE user_id = ?");

@@ -1,3 +1,5 @@
+/* Responsive layout improvements */
+/* Enhanced navigation and form styling */
 :root {
     --primary: #2563eb;
     --primary-dark: #1d4ed8;
@@ -228,7 +230,7 @@ img {
     padding: 14px 24px;
     border-radius: 999px;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 890;
     box-shadow: var(--shadow-md);
     transition: 0.2s ease;
 }
