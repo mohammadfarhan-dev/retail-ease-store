@@ -1,3 +1,6 @@
+// Database connection configuration
+// PDO connection with UTF-8 support
+
 <?php
 $host = "localhost";
 $dbname = "retail_ease_store";

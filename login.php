@@ -2,6 +2,7 @@
 require_once 'config/database.php';
 require_once 'includes/functions.php';
 
+// User authentication and session initialization
 if (isLoggedIn()) {
     if ($_SESSION['role'] === 'admin') {
         redirect('/retail-ease-store/admin/dashboard.php');
